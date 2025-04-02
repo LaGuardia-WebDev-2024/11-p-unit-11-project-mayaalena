@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-image: url("https://thegeotech.com/wp-content/uploads/2022/11/sea-sand.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,17 +14,13 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 2px solid red;
+  border-radius: 5px;;
+     background-image: url('https://mepa.org/wp-content/uploads/2015/09/Summer-is-coming....jpg');
+  
 }
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-bottom: 20px;
-}
+
 
 .pic{
   height: 450px;
@@ -36,6 +32,12 @@ html{
 h2{
   color: black;
 /*   font-size: 10px; */
+
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
 }
 
 #start{
